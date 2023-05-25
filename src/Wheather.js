@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./Xyz.css";
 import Svg from "../src/Svg.png";
 import { useEffect } from "react";
-
+// xy
 const Wheather = () => {
   const [City, setCity] = useState(null);
   const [search, setsearch] = useState("Mumbai");
