@@ -1,0 +1,60 @@
+html{
+    --primary-color--: black;
+    --secondary-color--: white
+
+}
+
+*{
+    background-color: var(--primary-color--);
+    color: var(--secondary-color--);
+}
+
+.search-box{
+    background-color: var(--secondary-color--);
+    display: flex;
+    position: absolute;
+    width: 83rem;
+    height: 3rem;
+    color: var(--primary-color--);
+    left: 13px;
+    top: 20px;
+    border-radius: 10px;
+}
+
+.location{
+    top: 16rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.img{
+    position: relative;
+    bottom: 16px;
+}
+
+
+.temp{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 15rem;
+
+}
+
+
+.tempmin-max{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 15rem;
+
+}
+
+.errormsg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17rem;
+}
